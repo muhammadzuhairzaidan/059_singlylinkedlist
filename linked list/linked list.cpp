@@ -181,19 +181,16 @@ int main()
 				}
 			}
 			break;
-		case '5':
-		{
-			exit(0);
-		}
-		break;
-		default:
-		{
-			cout << "Pilihan salah !." << endl;
-		}
-		break;
-		}
-	}
-}
+
+		case '4':
+			{
+			if (mhs.listempty() == true)
+				{
+					cout << "\nlist Kosong\n";
+					break;
+				}
+			}
+		
 
 
 
