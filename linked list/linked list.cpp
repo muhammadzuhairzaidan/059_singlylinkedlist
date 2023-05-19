@@ -11,4 +11,4 @@ public:
 };
 class List
 {
-	
+	Node* START;
