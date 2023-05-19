@@ -181,4 +181,19 @@ int main()
 				}
 			}
 			break;
-		
+		case '5':
+		{
+			exit(0);
+		}
+		break;
+		default:
+		{
+			cout << "Pilihan salah !." << endl;
+		}
+		break;
+		}
+	}
+}
+
+
+
