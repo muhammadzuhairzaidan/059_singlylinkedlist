@@ -125,4 +125,13 @@ int main()
 	char ch;
 	while (1)
 	{
+		cout << endl << "Menu";
+		cout << endl << "1. Menambahkan data kedalam list" << endl;
+		cout << "2. Menghapus data dari dalam list" << endl;
+		cout << "3. Menampilkan semua data didalam list" << endl;
+		cout << "5. Keluar" << endl;
+		cout << endl << "Masukkan piliha (1-5): ";
+		cin >> ch;
+		switch (ch)
+		{
 		
