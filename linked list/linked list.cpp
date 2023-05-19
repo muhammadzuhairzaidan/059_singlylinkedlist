@@ -12,3 +12,12 @@ public:
 class List
 {
 	Node* START;
+public:
+	List();
+	void addNode();
+	bool search(int nim, Node** current, Node** previous);
+	bool listempty();
+	bool delNode(int element);
+	void traverse();
+};
+
