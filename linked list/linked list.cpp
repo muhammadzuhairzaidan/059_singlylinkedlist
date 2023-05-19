@@ -179,6 +179,15 @@ int main()
 				}
 			}
 			break;
+		case '4':
+		{
+			if (mhs.listempty() == true)
+			{
+				cout << "\nlist Kosong\n";
+				break;
+			}
+		}
 		
+
 
 		
