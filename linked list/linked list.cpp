@@ -74,3 +74,11 @@ void List::addNode()
 	previous->next = nodeBaru;
 }
 
+bool List::listempty()
+{
+	if (START == NULL)
+		return true;
+	else
+		return false;
+}
+
