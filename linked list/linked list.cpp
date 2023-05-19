@@ -9,3 +9,6 @@ public:
 	char nama[20];
 	Node* next;
 };
+class List
+{
+	
