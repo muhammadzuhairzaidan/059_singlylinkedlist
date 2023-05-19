@@ -81,4 +81,16 @@ bool List::listempty()
 	else
 		return false;
 }
+bool List::delNode(int nim)
+{
+	Node* current, * previous;
+	if (search(nim, &previous, &current) == false)
+		return false;
+	previous->next = current->next;
+	if (current == START)
+		START = START->next;
+
+	delete current;
+	return true;
+}
 
